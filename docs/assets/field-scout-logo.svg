@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 250" role="img" aria-labelledby="title desc">
+  <title id="title">Field Scout</title>
+  <desc id="desc">A satellite mark looks over curved crop rows and highlights one plot.</desc>
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2F9B72"/>
+      <stop offset="1" stop-color="#8BCB68"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5AB7A0"/>
+      <stop offset="1" stop-color="#E7B44D"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(28 18)">
+    <path d="M116 18 143 45 116 72 89 45Z" fill="#143B36"/>
+    <path d="m107 45 7-7 7 7-7 7Z" fill="#F7F6EF"/>
+    <path d="M116 77c42 0 75 17 91 40M116 91c30 0 54 12 68 29M116 105c20 0 36 8 46 20" fill="none" stroke="url(#signal)" stroke-linecap="round" stroke-width="5"/>
+    <path d="M115 115c-44 0-76 12-99 31M115 131c-32 0-56 9-75 22M115 147c-22 0-39 6-53 15" fill="none" stroke="url(#field)" stroke-linecap="round" stroke-width="7"/>
+    <path d="M21 162c21-10 48-15 81-15M138 147c28 0 52 5 72 15" fill="none" stroke="#143B36" stroke-linecap="round" stroke-width="7"/>
+    <circle cx="115" cy="131" r="9" fill="#E7B44D" stroke="#143B36" stroke-width="4"/>
+    <path d="M116 5v-9M76 45H64M168 45h12M87 16 79 8M145 16l8-8" fill="none" stroke="#143B36" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <g fill="#143B36">
+    <text x="270" y="116" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="62" font-weight="750" letter-spacing="2">FIELD SCOUT</text>
+    <text x="274" y="167" font-family="Avenir Next, Montserrat, Arial, sans-serif" font-size="22" font-weight="500" letter-spacing="5">SEE THE SIGNAL. SEND THE SCOUT.</text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+check,dap,input_set,metric,mean,split_sd,splits
+scouting,75,nitrogen_plus_site,recall20,0.170608,0.037918,10
+scouting,75,fields_plus_site,recall20,0.514784,0.043014,10
+scouting,75,fields_indices_plus_site,recall20,0.498868,0.060206,10
+yield,75,fields_plus_site,mae_bu_per_acre,19.287375,2.540443,7
+yield,75,fields_indices_plus_site,mae_bu_per_acre,18.371953,2.831924,7
+scouting,90,nitrogen_plus_site,recall20,0.170608,0.037918,10
+scouting,90,fields_plus_site,recall20,0.514784,0.043014,10
+scouting,90,fields_indices_plus_site,recall20,0.533838,0.043694,10
+yield,90,fields_plus_site,mae_bu_per_acre,19.287375,2.540443,7
+yield,90,fields_indices_plus_site,mae_bu_per_acre,17.113148,2.568449,7

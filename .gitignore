@@ -1,0 +1,23 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+/.codex-finalizer/
+/.chart-data-*/
+
+# Licensed source files and local model output.
+/data/
+/outputs/
+*.zip
+*.tif
+*.tiff
+
+# Local presentation and private work.
+/presentation/
+/_archive/
+/.private/
+/research/
+*.ppt
+*.pptx
